@@ -6,10 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Component;
+
 import model.Banco;
 import model.entidade.Pesquisador;
-import model.entidade.Vacina;
-
+@Component
 public class PesquisadorRepository {
 
 	public Pesquisador inserir(Pesquisador pesquisador) {

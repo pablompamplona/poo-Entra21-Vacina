@@ -2,7 +2,7 @@ package model.entidade;
 
 public class Pesquisador {
 	
-	private int idPesquisador;
+	private Integer idPesquisador;
 	private String nome;
 	private String cpf;
 	private String matricula;
@@ -16,11 +16,11 @@ public class Pesquisador {
 		this.matricula = matricula;
 	}
 
-	public int getIdPesquisador() {
+	public Integer getIdPesquisador() {
 		return idPesquisador;
 	}
 
-	public void setIdPesquisador(int idPesquisador) {
+	public void setIdPesquisador(Integer idPesquisador) {
 		this.idPesquisador = idPesquisador;
 	}
 

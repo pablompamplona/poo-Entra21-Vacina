@@ -65,4 +65,6 @@ public class Vacina {
 				"Inicio da Pesquisa: " + dataInicioPesquisa + "\n" + 
 				"Pesquisador REsponsavel: " + pesquisador.getNome();
 	}
+
+
 }
